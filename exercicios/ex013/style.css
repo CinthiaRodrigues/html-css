@@ -1,0 +1,12 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(237, 237, 198);
+    color: rgb(142, 36, 36);
+}
+h1 {
+    background-color: rgb(232, 171, 3);
+}
+p {
+    text-align: justify;
+}
