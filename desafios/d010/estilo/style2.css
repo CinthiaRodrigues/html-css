@@ -26,16 +26,6 @@
     padding: 0px;
 }
 
-body {
-    background-color: var(--cor0);
-    font-family: var(--fonte-padrao);
-    font-size: 1em;
-    
-}
-a.externo::after {
-    content: '\00A0\1F517';
-}
-
 header {
     background-image: linear-gradient(to bottom, var(--cor3),var(--cor5));
     min-height: 150px;
@@ -79,6 +69,17 @@ nav > a:hover {
     color: black;
     border-radius: 3px;
     transition-duration: 0.5s;
+}
+
+body {
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+    font-size: 1em;
+    
+}
+
+a.externo::after {
+    content: '\00A0\1F517';
 }
 
 main {
