@@ -66,30 +66,35 @@ section.normal p {
 section.imagem {
     background-color: darkgray;
     color: white;
-}
-
-section.imagem p{
-    display: inline-block;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.562);
-    border-radius: 10px;
-}
-
-section#img1 {
-    background-image: url(imagens/background001.jpg);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.527);
     background-repeat: no-repeat;
-    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
 }
 
+section.imagem p{
+    text-shadow: 2px 2px 4px black;
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.356);
+    border-radius: 10px;
+    
+    
+}
+
+section#img1 {
+    background-image: url(imagens/background001.jpg);
+    background-position: center center;
+}
+
 section#img2 {
-    /*background-image: url(imagens/background002.jpg);
-    background-repeat: no-repeat;
+    background-image: url(imagens/background002.jpg);
+    /*background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;*/
-    background: black url(imagens/background002.jpg) right center no-repeat fixed;
+    /*background: black url(imagens/background002.jpg) right center no-repeat fixed;
+    background-size: cover;*/
 }
 
 
